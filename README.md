@@ -163,6 +163,28 @@ pip install -r requirements.txt
 
 ### Rappi
 
+#### Sin navegador (headless)
+
+Probar 1 dirección:
+
+```bash
+npm run scrape:rappi:1
+```
+
+Probar 3 direcciones:
+
+```bash
+npm run scrape:rappi:3
+```
+
+Ejecutar todas las direcciones:
+
+```bash
+npm run scrape:rappi
+```
+
+#### Con navegador (para debug)
+
 Probar 1 dirección:
 
 ```bash
@@ -191,6 +213,28 @@ output/rappi-results.csv
 ---
 
 ### Uber Eats
+
+#### Sin navegador (headless)
+
+Probar 1 dirección:
+
+```bash
+npm run scrape:ubereats:1
+```
+
+Probar 3 direcciones:
+
+```bash
+npm run scrape:ubereats:3
+```
+
+Ejecutar todas las direcciones:
+
+```bash
+npm run scrape:ubereats
+```
+
+#### Con navegador (para debug)
 
 Probar 1 dirección:
 

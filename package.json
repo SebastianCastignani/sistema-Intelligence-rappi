@@ -5,21 +5,25 @@
   "type": "module",
   "scripts": {
     "scrape:rappi": "tsx src/rappi.ts",
-    "scrape:rappi:headed": "HEADLESS=false tsx src/rappi.ts",
-    "scrape:rappi:1direccion": "MAX_DIRECCIONES=1 HEADLESS=false tsx src/rappi.ts",
-    "scrape:rappi:3direcciones": "MAX_DIRECCIONES=3 HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:headed": "cross-env HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:1direccion": "cross-env MAX_DIRECCIONES=1 HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:3direcciones": "cross-env MAX_DIRECCIONES=3 HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:1": "cross-env MAX_DIRECCIONES=1 tsx src/rappi.ts",
+    "scrape:rappi:3": "cross-env MAX_DIRECCIONES=3 tsx src/rappi.ts",
     "install:browsers": "npx playwright install chromium",
     "scrape:ubereats": "tsx src/ubereats.ts",
-    "scrape:ubereats:headed": "HEADLESS=false tsx src/ubereats.ts",
-    "scrape:ubereats:1direccion": "MAX_DIRECCIONES=1 HEADLESS=false tsx src/ubereats.ts",
-    "scrape:ubereats:3direcciones": "MAX_DIRECCIONES=3 HEADLESS=false tsx src/ubereats.ts"
+    "scrape:ubereats:headed": "cross-env HEADLESS=false tsx src/ubereats.ts",
+    "scrape:ubereats:1direccion": "cross-env MAX_DIRECCIONES=1 HEADLESS=false tsx src/ubereats.ts",
+    "scrape:ubereats:3direcciones": "cross-env MAX_DIRECCIONES=3 HEADLESS=false tsx src/ubereats.ts",
+    "scrape:ubereats:1": "cross-env MAX_DIRECCIONES=1 tsx src/ubereats.ts",
+    "scrape:ubereats:3": "cross-env MAX_DIRECCIONES=3 tsx src/ubereats.ts",
+    "report": "python scripts/generate_report.py"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
+    "cross-env": "^7.0.3",
     "playwright": "^1.56.0",
     "tsx": "^4.20.0",
     "typescript": "^5.7.0"
   }
-
-
 }
