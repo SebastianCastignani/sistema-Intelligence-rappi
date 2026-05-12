@@ -1,0 +1,25 @@
+{
+  "name": "rappi-hybrid-browser-por-direccion",
+  "version": "1.0.0",
+  "description": "Scraper híbrido Rappi que abre y cierra el navegador completo por cada dirección.",
+  "type": "module",
+  "scripts": {
+    "scrape:rappi": "tsx src/rappi.ts",
+    "scrape:rappi:headed": "HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:1direccion": "MAX_DIRECCIONES=1 HEADLESS=false tsx src/rappi.ts",
+    "scrape:rappi:3direcciones": "MAX_DIRECCIONES=3 HEADLESS=false tsx src/rappi.ts",
+    "install:browsers": "npx playwright install chromium",
+    "scrape:ubereats": "tsx src/ubereats.ts",
+    "scrape:ubereats:headed": "HEADLESS=false tsx src/ubereats.ts",
+    "scrape:ubereats:1direccion": "MAX_DIRECCIONES=1 HEADLESS=false tsx src/ubereats.ts",
+    "scrape:ubereats:3direcciones": "MAX_DIRECCIONES=3 HEADLESS=false tsx src/ubereats.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "playwright": "^1.56.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.7.0"
+  }
+
+
+}

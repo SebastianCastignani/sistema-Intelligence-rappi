@@ -1,0 +1,144 @@
+{
+  "direcciones": [
+    {
+      "zona": "Norte - Monterrey Centro",
+      "direccion": "Av. Constitución 201, Centro, Monterrey, Nuevo León",
+      "sugerencia": "Constitución"
+    },
+    {
+      "zona": "Norte - San Pedro",
+      "direccion": "Av. Vasconcelos 150, Del Valle, San Pedro Garza García, Nuevo León",
+      "sugerencia": "Vasconcelos"
+    },
+    {
+      "zona": "Norte - Chihuahua",
+      "direccion": "Av. Universidad 1700, Santo Niño, Chihuahua, Chihuahua",
+      "sugerencia": "Universidad"
+    },
+    {
+      "zona": "Norte - Torreón",
+      "direccion": "Blvd. Independencia 1300, Navarro, Torreón, Coahuila",
+      "sugerencia": "Independencia"
+    },
+    {
+      "zona": "Norte - Hermosillo",
+      "direccion": "Blvd. Luis Encinas J. 172, Centro, Hermosillo, Sonora",
+      "sugerencia": "Luis Encinas"
+    },
+    {
+      "zona": "Oeste - Guadalajara",
+      "direccion": "Av. Juárez 975, Americana, Guadalajara, Jalisco",
+      "sugerencia": "Juárez"
+    },
+    {
+      "zona": "Oeste - Zapopan",
+      "direccion": "Av. Patria 2085, Puerta de Hierro, Zapopan, Jalisco",
+      "sugerencia": "Patria"
+    },
+    {
+      "zona": "Oeste - Puerto Vallarta",
+      "direccion": "Av. Francisco Medina Ascencio 2920, Zona Hotelera Norte, Puerto Vallarta, Jalisco",
+      "sugerencia": "Medina Ascencio"
+    },
+    {
+      "zona": "Oeste - Morelia",
+      "direccion": "Av. Acueducto 3800, Chapultepec Norte, Morelia, Michoacán",
+      "sugerencia": "Acueducto"
+    },
+    {
+      "zona": "Oeste - León",
+      "direccion": "Blvd. Adolfo López Mateos 2518, Jardines del Moral, León, Guanajuato",
+      "sugerencia": "López Mateos"
+    },
+    {
+      "zona": "Centro - CDMX Polanco",
+      "direccion": "Av. Presidente Masaryk 111, Polanco, Ciudad de México, CDMX",
+      "sugerencia": "Presidente Masaryk"
+    },
+    {
+      "zona": "Centro - CDMX Roma Norte",
+      "direccion": "Av. Álvaro Obregón 286, Roma Norte, Ciudad de México, CDMX",
+      "sugerencia": "Álvaro Obregón"
+    },
+    {
+      "zona": "Centro - CDMX Coyoacán",
+      "direccion": "Av. Miguel Ángel de Quevedo 687, Coyoacán, Ciudad de México, CDMX",
+      "sugerencia": "Miguel Ángel de Quevedo"
+    },
+    {
+      "zona": "Centro - Querétaro",
+      "direccion": "Av. Constituyentes 40, Centro, Santiago de Querétaro, Querétaro",
+      "sugerencia": "Constituyentes"
+    },
+    {
+      "zona": "Centro - Puebla",
+      "direccion": "Av. Juárez 2925, La Paz, Puebla, Puebla",
+      "sugerencia": "Juárez"
+    },
+    {
+      "zona": "Este - Veracruz",
+      "direccion": "Blvd. Manuel Ávila Camacho 1371, Ricardo Flores Magón, Veracruz, Veracruz",
+      "sugerencia": "Ávila Camacho"
+    },
+    {
+      "zona": "Este - Xalapa",
+      "direccion": "Av. Lázaro Cárdenas 100, Xalapa-Enríquez, Veracruz",
+      "sugerencia": "Lázaro Cárdenas"
+    },
+    {
+      "zona": "Sur - Oaxaca",
+      "direccion": "Calz. Porfirio Díaz 258, Reforma, Oaxaca de Juárez, Oaxaca",
+      "sugerencia": "Porfirio Díaz"
+    },
+    {
+      "zona": "Sur - Mérida",
+      "direccion": "Paseo de Montejo 495, Centro, Mérida, Yucatán",
+      "sugerencia": "Paseo de Montejo"
+    },
+    {
+      "zona": "Sur - Cancún",
+      "direccion": "Av. Tulum 260, Centro, Cancún, Quintana Roo",
+      "sugerencia": "Tulum"
+    }
+  ],
+  "tiendas": [
+    {
+      "tipo": "restaurant",
+      "tienda": "McDonald's",
+      "local": "McDonald",
+      "busqueda_tienda": "mcdonalds",
+      "productos": [
+        {
+          "producto": "Big Mac",
+          "buscar_producto": "Big Mac"
+        }
+      ]
+    },
+    {
+      "tipo": "restaurant",
+      "tienda": "Burger King",
+      "local": "Burger King",
+      "busqueda_tienda": "burger king",
+      "productos": [
+        {
+          "producto": "Whopper",
+          "buscar_producto": "Whopper"
+        }
+      ]
+    },
+    {
+      "tipo": "retail",
+      "tienda": "7 Eleven",
+      "local": "7 Eleven",
+      "busqueda_tienda": "7 eleven",
+      "categoria": "Bebidas",
+      "productos": [
+          {
+            "producto": "Coca-Cola 600 ml",
+            "buscar_producto": "Coca-Cola Original Refresco 600 mL Pet",
+            "buscar_producto_ubereats": "Coca-Cola 600 ml"
+          }
+       ]
+    }
+  ]
+}
