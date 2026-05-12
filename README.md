@@ -154,6 +154,7 @@ Desde la raíz del proyecto:
 ```bash
 npm install
 npm run install:browsers
+pip install -r requirements.txt
 ```
 
 ---
